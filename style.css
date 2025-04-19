@@ -1,0 +1,45 @@
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+}
+body {
+  background:#000000;
+}
+
+.eizo-mov {
+    margin: 70px 100px;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(247, 215, 215);
+  }
+  
+  .welcome-eizo-mov {
+    font-size: 80px;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    text-align: center;
+  }
+  .poetic-text{
+    font-size: 5px;
+    letter-spacing: 0.25em;
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(138, 138, 138);
+  }
+  .link {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    line-height: 2.0em;
+    font-weight: 500;
+    color: #959595; /* 文字色を白に変更 */
+  }
+  .link a {
+    text-decoration: none; /* デフォルトの下線を削除 */
+    color: #cccccc; /* リンクの文字色も白に変更 */
+  }
+  .link a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
+    text-decoration-color: #494949;
+    color: #c2c2c2; /* ホバー時の文字色も白に変更 */
+  }
